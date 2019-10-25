@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.box-szg{
+    margin: 82px auto;
+    margin-left: 80px;
+}
+.top-box{
+    width: 1200px;
+    height: 100px;
+    background: black;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    line-height: 100px;
+}
+.left-box{
+    width: 250px;
+    height: 550px;
+    background: #ccc;
+    float: left;
+}
+.left-box ul{
+    list-style: none;
+    width: 100%;
+}
+.left-box ul li{
+    width: 250px;
+    height: 30px;
+    color: black;
+    background:yellow ;
+    margin: 20px 0px;
+    font-size: 20px;
+    line-height: 30px;
+}
+.right-box{
+    width: 1200px;
+    height: 550px;
+    background: cadetblue;
+    color: yellow;
+}
+.wenzi{
+    font-size: 25px;
+}

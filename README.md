@@ -1,2 +1,2 @@
-# react-i
-react框架做的笔记
+# 土豆
+https://wax-gourd-team.github.io/Potato.github.io/build/

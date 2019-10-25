@@ -1,0 +1,58 @@
+{
+	"npms": [
+		{
+			"titel": "初始化",
+			"describe": "1.npm init  表示初始化",
+			"describe2": "2.npm init -y   一键式初始化",
+			"describe3": "初始化 --> 生成package.json文件"
+		},
+		{
+			"titel": "切换淘宝源",
+			"describe": "npm set registry https://registry.npm.taobao.org/"
+		},
+		{
+			"titel": "显示进度条",
+			"describe": "npm config set loglevel = http"
+		},
+		{
+			"titel": "管理npm工具",
+			"describe": "1.下载nrm  'npm install nrm -g'",
+			"describe2": "2.查看仓库列表 'nrm ls'"
+		},
+		{
+			"titel": "测试仓库地址速度 ",
+			"describe": "nrm test"
+		},
+		{
+			"titel": "使用仓库命令",
+			"describe": "nrm use 仓库名",
+			"describe2": "2.查看仓库列表 'nrm ls'"
+		},
+		{
+			"titel": "查看当前仓库",
+			"describe": "nrm current"
+		},
+		{
+			"titel": "强制清除缓存",
+			"describe": "npm cache clear --force"
+		},
+		{
+			"titel": "卸载包",
+			"describe": "npm uninstall 包名"
+		},
+		{
+			"titel": "查看当前项目下载了多少包",
+			"describe": "npm ls"
+		},
+		{
+			"titel": "下载包和删除包",
+			"describe": "下载 install 删除uninstall",
+			"describe2": "npm install 简写成 npm i"
+		},
+		{
+			"titel": "dependencies 依赖",
+			"describe": "npm i 时候会自动去package.json 查找依赖  并且根据版本号去下载我们需要的包",
+			"describe2": "-D development  开发环境（写代码）"
+		}
+	]
+}
