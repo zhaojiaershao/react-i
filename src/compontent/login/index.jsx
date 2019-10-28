@@ -9,7 +9,7 @@ export default class Index extends Component {
     super();
     this.state = {
       visible: false,
-      page: 'Login'
+      page: 'register'
     };
   }
   showModal = () => {
@@ -32,59 +32,37 @@ export default class Index extends Component {
   render() {
     let Dom = '';
     switch (this.state.page) {
-      case 'Login':
+      case 'login':
         Dom = (
           <Login
             visible={this.state.visible}
             showmodal={this.showModal}
             handleok={this.handleOk}
             handlecancel={this.handleCancel}
-            handleregister={this.handleRegister}
+            handlechange={this.handleChange}
           />
         );
         break;
 
-      case 'Register':
+      case 'register':
         Dom = (
           <Register
             visible={this.state.visible}
             showmodal={this.showModal}
             handleok={this.handleOk}
             handlecancel={this.handleCancel}
-            handlelogin={this.handleLogin}
+            handlechange={this.handleChange}
           />
         );
         break;
     }
-    return (
-      <div>
-        {/* <Login
-          visible={this.state.visible}
-          showmodal={this.showModal}
-          handleok={this.handleOk}
-          handlecancel={this.handleCancel}
-          handleclick={this.handleClick}
-        /> */}
-        {/* <Register
-          visible={this.state.visible}
-          showmodal={this.showModal}
-          handleok={this.handleOk}
-          handlecancel={this.handleCancel}
-        /> */}
-        {Dom}
-      </div>
-    );
+    return <div>{Dom}</div>;
   }
-  //跳转到注册页面事件
-  handleRegister = page => {
+  //跳转页面
+  handleChange = info => {
+    console.log(info);
     this.setState({
-      page: page
-    });
-  };
-  //跳转到登陆的页面
-  handleLogin = page => {
-    this.setState({
-      page: page
+      page: info
     });
   };
 }

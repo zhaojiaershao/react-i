@@ -1,5 +1,6 @@
-.back{
-    background: url(./img/1.jpg) ;
+.back {
+    background: url(./img/1.jpg) no-repeat;
+    background-size: cover;
     position: relative;
-    z-index: 11;
+    z-index: 1;
 }

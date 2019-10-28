@@ -86,9 +86,9 @@ export default () => {
     <div className="zrbMax">
       <h1>npm安装教程</h1>
       <List>
-        {image.map(item => {
+        {image.map((item, index) => {
           return (
-            <div>
+            <div key={index}>
               <h1>{item.title}</h1>
               <h2>{item.describe}</h2>
               <h2>{item.describe2}</h2>

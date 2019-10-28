@@ -4,3 +4,26 @@ label {
 	display: flex;
 	justify-content: space-around;
 }
+
+.zrb-button-lg-rg {
+	margin: 18px 0px 0 267px;
+	width: 60px;
+	height: 37px;
+	font-weight: bold;
+	font-size: 17px;
+	background: blue;
+	border: none;
+	border-radius: 9px;
+}
+
+// 协议的样式
+.zrb-chebox {
+	display: flex;
+	justify-content: end;
+
+	input {
+		width: 18px;
+		height: 22px;
+		margin-right: 6px;
+	}
+}
